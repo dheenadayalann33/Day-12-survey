@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <div class="container p-4 ">
+        <form class="row g-2">
+            <label for="inputName" class="form-label lato mb-0"><strong>Name<span style="color: red;">*</span></strong></label>
+            <div class="col col-sm-3 mt-0">
+                <div class="row g-2 p-2">
+                    <input type="text" class="form-control" id="inputName" required/>
+                    <p class="rob" style="font-size: small;">First</p>
+                </div>
+            </div>
+            <div class="col col-sm-3">
+                <div class="row g-2">
+                    <input type="text" class="form-control" id="inputName" required/>
+                    <p class="rob" style="font-size: small;">Last</p>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-6 mt-2">
+                <label for="forEmail" class="form-label lato"><strong>Email<span style="color: red;">*</span></strong></label>
+                <input type="email" class="form-control" id="forEmail" required/>
+            </div>
+            <div class="mt-4">
+                <label class="mb-2 lato"><strong>Your Experience<span style="color: red;">*</span></strong></label><br />
+                <i class="fa fa-star fa-2x" aria-hidden="true" style="color: goldenrod"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" style="color: goldenrod"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" style="color: goldenrod"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" style="color: goldenrod"></i>
+                <i class="fa fa-star fa-2x" aria-hidden="true" style="color: goldenrod"></i>
+            </div>
+            <div class="rob">
+                <p>Overall how would you rate your experience with us.</p>
+            </div>
+            <div class="">
+                <div class="table1 ">
+                    <p class="lato"><strong>How satisfied you are with<span style="color: red;">*</span></strong></p>
+                    <table class="table table-light table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="col-1">&nbsp;</th>
+                                <th scope="col" class="col-1 text-center rob">Very Undsatisfied</th>
+                                <th scope="col" class="col-1 text-center rob">Undsatisfied</th>
+                                <th scope="col" class="col-1 text-center rob">Neutral</th>
+                                <th scope="col" class="col-1 text-center rob">Satisfied</th>
+                                <th scope="col" class="col-1 text-center rob">Very Satisfied</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios">
+                                        Purchase
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios"
+                                        value="option" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios"
+                                        value="option" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios"
+                                        value="option" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios"
+                                        value="option" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios"
+                                        value="option" required/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Service
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1"
+                                        id="exampleRadios1" value="option1" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1"
+                                        id="exampleRadios1" value="option1" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1"
+                                        id="exampleRadios1" value="option1" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1"
+                                        id="exampleRadios1" value="option1" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1"
+                                        id="exampleRadios1" value="option1" required/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Company Overall
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios2" value="option2" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios2" value="option2" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios2" value="option2" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios2" value="option2" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2"
+                                        id="exampleRadios2" value="option2" required/>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table2 mt-3">
+                    <p class="lato"><strong>How likely your to<span style="color: red;">*</span></strong></p>
+                    <table class="table table-light table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="col-1 text-center">&nbsp;</th>
+                                <th scope="col" class="col-1 text-center rob">Very Unlikely</th>
+                                <th scope="col" class="col-1 text-center rob">Unlikely</th>
+                                <th scope="col" class="col-1 text-center rob">Neutral</th>
+                                <th scope="col" class="col-1 text-center rob">Likely</th>
+                                <th scope="col" class="col-1 text-center rob">Very Likely</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        Buy from us again
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3"
+                                        id="exampleRadios3" value="option3" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3"
+                                        id="exampleRadios3" value="option3" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3"
+                                        id="exampleRadios3" value="option3" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3"
+                                        id="exampleRadios3" value="option3" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3"
+                                        id="exampleRadios3" value="option3" required/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        Recommend our product to others
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4"
+                                        id="exampleRadios4" value="option4" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4"
+                                        id="exampleRadios4" value="option4" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4"
+                                        id="exampleRadios4" value="option4" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4"
+                                        id="exampleRadios4" value="option4" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4"
+                                        id="exampleRadios4" value="option4" required/>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="rob">
+                                    <label class="form-check-label" for="exampleRadios5">
+                                        Recommend our company to others
+                                    </label>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios5"
+                                        id="exampleRadios5" value="option5" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios5"
+                                        id="exampleRadios5" value="option5" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios5"
+                                        id="exampleRadios5" value="option5" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios5"
+                                        id="exampleRadios5" value="option5" required/>
+                                </th>
+                                <th class="text-center rob">
+                                    <input class="form-check-input" type="radio" name="exampleRadios5"
+                                        id="exampleRadios5" value="option5" required/>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="form-group lato">
+                <label for="exampleFormControlTextarea1"><p><strong>Additional comments or suggestions</strong></p></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="col-3 mt-4">
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
